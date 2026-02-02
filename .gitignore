@@ -1,0 +1,27 @@
+
+Part1BuildingRAGWithFastAPi/*
+Part2DockerContainer/*
+Part3Kubernetes/*
+Part4CICD/*
+
+# Python
+.venv*/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+__pycache__/
+
+# Chroma Database
+db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
