@@ -4,3 +4,4 @@ uvicorn
 chromadb 
 ollama
 onnxruntime
+request
