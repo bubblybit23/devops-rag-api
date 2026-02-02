@@ -20,6 +20,11 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Debug requirements.txt
+        run: |
+          echo "===== requirements.txt ====="
+          cat requirements.txt
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
